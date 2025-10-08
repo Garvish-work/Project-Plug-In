@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 480dd6172d8c9fd4bb6aacf190def2d6, type: 3}
+  m_Name: Attachble data
+  m_EditorClassIdentifier: 
+  attachableBike: {fileID: 3935192551526803581, guid: 5f29486d965d61f4e8aab7502882e080, type: 3}
+  attachableF1: {fileID: 6014682950847013153, guid: 6d0b6641c956527488bf64e9c1a37a60, type: 3}
+  attachableGP: {fileID: 1747402969910968200, guid: 61f7f74a2d190b047953d0d7493da5a2, type: 3}
