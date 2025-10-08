@@ -6,4 +6,5 @@ public class AttachableData : ScriptableObject
     public GameObject attachableBike;
     public GameObject attachableF1;
     public GameObject attachableGP;
+    public GameObject attachableRacingCar;
 }

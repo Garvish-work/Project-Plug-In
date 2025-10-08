@@ -501,6 +501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalObjectTransform: {fileID: 6330156495189683072}
+  gameData: {fileID: 11400000, guid: f21d657b1444ba841b3fcf2d72dfabf6, type: 2}
 --- !u!1 &4285023677882463620
 GameObject:
   m_ObjectHideFlags: 0
@@ -883,6 +884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalObjectTransform: {fileID: 3673161334304846204}
+  gameData: {fileID: 11400000, guid: f21d657b1444ba841b3fcf2d72dfabf6, type: 2}
 --- !u!1 &5876684378208249498
 GameObject:
   m_ObjectHideFlags: 0
@@ -1467,3 +1469,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalObjectTransform: {fileID: 4161669242999369618}
+  gameData: {fileID: 11400000, guid: f21d657b1444ba841b3fcf2d72dfabf6, type: 2}

@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Game data
   m_EditorClassIdentifier: 
   attachables: 1
+  cameraCanRotate: 1

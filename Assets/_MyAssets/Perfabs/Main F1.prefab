@@ -466,6 +466,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalObjectTransform: {fileID: 6494472463124168410}
+  gameData: {fileID: 11400000, guid: f21d657b1444ba841b3fcf2d72dfabf6, type: 2}
 --- !u!1 &1503368542095400866
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,6 +675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalObjectTransform: {fileID: 3462990369909364430}
+  gameData: {fileID: 11400000, guid: f21d657b1444ba841b3fcf2d72dfabf6, type: 2}
 --- !u!1 &1617143248201045792
 GameObject:
   m_ObjectHideFlags: 0
@@ -796,6 +798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalObjectTransform: {fileID: 7523216787844432120}
+  gameData: {fileID: 11400000, guid: f21d657b1444ba841b3fcf2d72dfabf6, type: 2}
 --- !u!1 &3595149382163702541
 GameObject:
   m_ObjectHideFlags: 0
@@ -1295,6 +1298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalObjectTransform: {fileID: 3359000778719383448}
+  gameData: {fileID: 11400000, guid: f21d657b1444ba841b3fcf2d72dfabf6, type: 2}
 --- !u!1 &6014682950847013153
 GameObject:
   m_ObjectHideFlags: 0
@@ -1459,6 +1463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalObjectTransform: {fileID: 3296497063529544067}
+  gameData: {fileID: 11400000, guid: f21d657b1444ba841b3fcf2d72dfabf6, type: 2}
 --- !u!1 &6214416247388319064
 GameObject:
   m_ObjectHideFlags: 0
@@ -1581,6 +1586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalObjectTransform: {fileID: 315320875061612404}
+  gameData: {fileID: 11400000, guid: f21d657b1444ba841b3fcf2d72dfabf6, type: 2}
 --- !u!1 &6356943304339428777
 GameObject:
   m_ObjectHideFlags: 0
@@ -1875,6 +1881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalObjectTransform: {fileID: 239309133631862972}
+  gameData: {fileID: 11400000, guid: f21d657b1444ba841b3fcf2d72dfabf6, type: 2}
 --- !u!1 &7727363771071989128
 GameObject:
   m_ObjectHideFlags: 0
@@ -2083,6 +2090,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalObjectTransform: {fileID: 2847270924163602266}
+  gameData: {fileID: 11400000, guid: f21d657b1444ba841b3fcf2d72dfabf6, type: 2}
 --- !u!1 &8993690932940754979
 GameObject:
   m_ObjectHideFlags: 0
@@ -2205,3 +2213,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   finalObjectTransform: {fileID: 4472012167901106896}
+  gameData: {fileID: 11400000, guid: f21d657b1444ba841b3fcf2d72dfabf6, type: 2}

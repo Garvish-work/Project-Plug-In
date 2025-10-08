@@ -24,6 +24,9 @@ public class ObjectSpawningSystem : MonoBehaviour
             case Attachables.GP:
                 Instantiate(attachableData.attachableGP, Vector3.zero, Quaternion.identity);
                 break;
+            case Attachables.RACING_CAR:
+                Instantiate(attachableData.attachableRacingCar, Vector3.zero, Quaternion.identity);
+                break;
         }
     }
 }

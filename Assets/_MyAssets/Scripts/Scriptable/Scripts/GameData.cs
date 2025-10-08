@@ -4,6 +4,7 @@ using UnityEngine;
 public class GameData : ScriptableObject
 {
     public Attachables attachables;
+    public bool cameraCanRotate = false;
 }
 
 
@@ -11,5 +12,6 @@ public enum Attachables
 {
     BIKE,
     F1,
-    GP
+    GP,
+    RACING_CAR
 };

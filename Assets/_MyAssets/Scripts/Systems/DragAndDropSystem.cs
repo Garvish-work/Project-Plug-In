@@ -16,6 +16,7 @@ public class DragAndDropSystem : MonoBehaviour
     private BoxCollider objCollider;
 
     [SerializeField] private Transform finalObjectTransform;
+    [SerializeField] private GameData gameData;
 
     void Start()
     {
@@ -27,6 +28,8 @@ public class DragAndDropSystem : MonoBehaviour
 
     void OnMouseDown()
     {
+        gameData.cameraCanRotate = false;
+
         zDistance = Vector3.Distance(transform.position, cam.transform.position);
         Vector3 mouseWorld = cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, zDistance));
         offset = transform.position - mouseWorld;
@@ -50,30 +53,22 @@ public class DragAndDropSystem : MonoBehaviour
     }
 
 
-    /*
-    void OnMouseDrag()
-    {
-        if (!isDragging) return;
-
-        Vector3 mouseWorld = cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, zDistance));
-        Vector3 newPos = mouseWorld + offset;
-
-        // Keep X fixed, allow Y and Z to change
-        transform.position = new Vector3(lockedX, newPos.y, newPos.z);
-    }
-    */
-
-
     void OnMouseUp()
     {
+        gameData.cameraCanRotate = true;
+
         isDragging = false;
         distance = Vector3.Distance(transform.position, finalPosition);
         if (distance < .6f)
         {
-            transform.position = finalPosition;
             snapped = true;
             objCollider.enabled =false;
-            ActionHandler.ObjectSnapped?.Invoke();   
+
+            LeanTween.move(gameObject, finalPosition, .1f).setEaseLinear().setOnComplete(()=>
+            {
+                transform.position = finalPosition;
+                ActionHandler.ObjectSnapped?.Invoke();
+            });
         }
     }
 }

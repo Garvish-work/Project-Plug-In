@@ -15,3 +15,4 @@ MonoBehaviour:
   attachableBike: {fileID: 3935192551526803581, guid: 5f29486d965d61f4e8aab7502882e080, type: 3}
   attachableF1: {fileID: 6014682950847013153, guid: 6d0b6641c956527488bf64e9c1a37a60, type: 3}
   attachableGP: {fileID: 1747402969910968200, guid: 61f7f74a2d190b047953d0d7493da5a2, type: 3}
+  attachableRacingCar: {fileID: 4430760167891965892, guid: f1adfbb81a7a9dd45a7e06468d72aef2, type: 3}
