@@ -5,6 +5,7 @@ public class GameData : ScriptableObject
 {
     public Attachables attachables;
     public bool cameraCanRotate = false;
+    public int partsInGame = 0;
 }
 
 

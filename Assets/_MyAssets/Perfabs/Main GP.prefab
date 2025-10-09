@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 102272237078766977}
   serializedVersion: 2
   m_LocalRotation: {x: -6.123234e-17, y: -5.0532154e-16, z: -6.123234e-17, w: -1}
-  m_LocalPosition: {x: -0.7555763, y: -2.64, z: 5.74}
+  m_LocalPosition: {x: -0.7555763, y: 13.379999, z: 5.74}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -123,6 +123,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalObjectTransform: {fileID: 5782484893367380841}
   gameData: {fileID: 11400000, guid: f21d657b1444ba841b3fcf2d72dfabf6, type: 2}
+  animeStartPostion: {x: 0, y: 0, z: 0}
+  animeEndPostion: {x: -0.7555763, y: -2.64, z: 5.74}
 --- !u!1 &355865271826793960
 GameObject:
   m_ObjectHideFlags: 0
@@ -238,7 +240,7 @@ Transform:
   m_GameObject: {fileID: 1416017870611703924}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0.77579445, y: 2.44, z: 3.89}
+  m_LocalPosition: {x: 0.77579445, y: 18.460001, z: 3.89}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -332,6 +334,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalObjectTransform: {fileID: 522407535745546068}
   gameData: {fileID: 11400000, guid: f21d657b1444ba841b3fcf2d72dfabf6, type: 2}
+  animeStartPostion: {x: 0, y: 0, z: 0}
+  animeEndPostion: {x: 0.77579445, y: 2.44, z: 3.89}
 --- !u!1 &1738614133614962273
 GameObject:
   m_ObjectHideFlags: 0
@@ -566,7 +570,7 @@ Transform:
   m_GameObject: {fileID: 2038523914901013409}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 4.66, z: -4.92}
+  m_LocalPosition: {x: 0, y: 20.68, z: -4.92}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -660,6 +664,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalObjectTransform: {fileID: 4583840648921973605}
   gameData: {fileID: 11400000, guid: f21d657b1444ba841b3fcf2d72dfabf6, type: 2}
+  animeStartPostion: {x: 0, y: 0, z: 0}
+  animeEndPostion: {x: 0, y: 4.66, z: -4.92}
 --- !u!1 &2263563350534171258
 GameObject:
   m_ObjectHideFlags: 0
@@ -689,7 +695,7 @@ Transform:
   m_GameObject: {fileID: 2263563350534171258}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: -0.64, z: 9.69}
+  m_LocalPosition: {x: 0, y: 15.380001, z: 9.69}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -783,6 +789,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalObjectTransform: {fileID: 6270949359884178266}
   gameData: {fileID: 11400000, guid: f21d657b1444ba841b3fcf2d72dfabf6, type: 2}
+  animeStartPostion: {x: 0, y: 0, z: 0}
+  animeEndPostion: {x: 0, y: -0.64, z: 9.69}
 --- !u!1 &2401030040655550041
 GameObject:
   m_ObjectHideFlags: 0
@@ -1583,7 +1591,7 @@ Transform:
   m_GameObject: {fileID: 6765315109619347420}
   serializedVersion: 2
   m_LocalRotation: {x: -6.123234e-17, y: 3.8285688e-16, z: -6.123234e-17, w: -1}
-  m_LocalPosition: {x: -0.7814874, y: -0.882, z: -3.566}
+  m_LocalPosition: {x: -0.7814874, y: 15.1380005, z: -3.566}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1677,6 +1685,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalObjectTransform: {fileID: 6487458635747040595}
   gameData: {fileID: 11400000, guid: f21d657b1444ba841b3fcf2d72dfabf6, type: 2}
+  animeStartPostion: {x: 0, y: 0, z: 0}
+  animeEndPostion: {x: -0.7814874, y: -0.882, z: -3.566}
 --- !u!1 &6941353030700822076
 GameObject:
   m_ObjectHideFlags: 0
@@ -1964,7 +1974,7 @@ Transform:
   m_GameObject: {fileID: 7659202411823355931}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0.77579445, y: 1.98, z: -4.53}
+  m_LocalPosition: {x: 0.77579445, y: 18, z: -4.53}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2058,6 +2068,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalObjectTransform: {fileID: 3286865360123120908}
   gameData: {fileID: 11400000, guid: f21d657b1444ba841b3fcf2d72dfabf6, type: 2}
+  animeStartPostion: {x: 0, y: 0, z: 0}
+  animeEndPostion: {x: 0.77579445, y: 1.98, z: -4.53}
 --- !u!1 &8282498151028910129
 GameObject:
   m_ObjectHideFlags: 0
@@ -2174,7 +2186,7 @@ Transform:
   m_GameObject: {fileID: 8939929914683128166}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: -3.29, z: 1.25}
+  m_LocalPosition: {x: 0, y: 12.730001, z: 1.25}
   m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2268,3 +2280,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finalObjectTransform: {fileID: 1449172213763597891}
   gameData: {fileID: 11400000, guid: f21d657b1444ba841b3fcf2d72dfabf6, type: 2}
+  animeStartPostion: {x: 0, y: 0, z: 0}
+  animeEndPostion: {x: 0, y: -3.29, z: 1.25}

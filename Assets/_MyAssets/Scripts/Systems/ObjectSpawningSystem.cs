@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class ObjectSpawningSystem : MonoBehaviour
@@ -28,5 +29,12 @@ public class ObjectSpawningSystem : MonoBehaviour
                 Instantiate(attachableData.attachableRacingCar, Vector3.zero, Quaternion.identity);
                 break;
         }
+        StartCoroutine(nameof(SendSpawnMessage));    
+    }
+
+    private IEnumerator SendSpawnMessage()
+    {
+        yield return new WaitForSeconds(0.5f);
+        ActionHandler.ObjectSpawned?.Invoke();
     }
 }

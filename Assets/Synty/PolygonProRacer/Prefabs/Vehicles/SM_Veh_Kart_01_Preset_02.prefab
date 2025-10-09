@@ -49,7 +49,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: c7e9cea6b9534ee47b15ae23bacd7a9b, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 9adcc77596a62ee419338c6420775dce, type: 2}
     - target: {fileID: 919132149155446097, guid: c7e9cea6b9534ee47b15ae23bacd7a9b, type: 3}
@@ -115,12 +115,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a32420cde9922024eb30220ac235dc8c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: daaf834c98bd9d64a966faa1ed4e3e55, type: 2}
     - target: {fileID: 919132149155446097, guid: a32420cde9922024eb30220ac235dc8c, type: 3}
       propertyPath: m_Name
       value: SM_Veh_Kart_01_Front_Bumper_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a32420cde9922024eb30220ac235dc8c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -181,7 +185,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a559852d53b9d2d4092a830a46f4735c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: daaf834c98bd9d64a966faa1ed4e3e55, type: 2}
     - target: {fileID: 919132149155446097, guid: a559852d53b9d2d4092a830a46f4735c, type: 3}
@@ -207,7 +211,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8729208820558385262, guid: 636c850fc66860a4bad747cb6ac1b497, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: daaf834c98bd9d64a966faa1ed4e3e55, type: 2}
     - target: {fileID: -8679921383154817045, guid: 636c850fc66860a4bad747cb6ac1b497, type: 3}
@@ -251,7 +255,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 636c850fc66860a4bad747cb6ac1b497, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: daaf834c98bd9d64a966faa1ed4e3e55, type: 2}
     - target: {fileID: -5869322956628683859, guid: 636c850fc66860a4bad747cb6ac1b497, type: 3}
@@ -263,7 +267,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -3900398726562555448, guid: 636c850fc66860a4bad747cb6ac1b497, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: daaf834c98bd9d64a966faa1ed4e3e55, type: 2}
     - target: {fileID: -3358764622501218131, guid: 636c850fc66860a4bad747cb6ac1b497, type: 3}
@@ -271,7 +275,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -50572284132213527, guid: 636c850fc66860a4bad747cb6ac1b497, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: daaf834c98bd9d64a966faa1ed4e3e55, type: 2}
     - target: {fileID: 919132149155446097, guid: 636c850fc66860a4bad747cb6ac1b497, type: 3}
@@ -279,11 +283,11 @@ PrefabInstance:
       value: SM_Veh_Kart_01_Preset_02
       objectReference: {fileID: 0}
     - target: {fileID: 1392715590708931335, guid: 636c850fc66860a4bad747cb6ac1b497, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: daaf834c98bd9d64a966faa1ed4e3e55, type: 2}
     - target: {fileID: 2685882903681204672, guid: 636c850fc66860a4bad747cb6ac1b497, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: daaf834c98bd9d64a966faa1ed4e3e55, type: 2}
     - target: {fileID: 4969206731778555196, guid: 636c850fc66860a4bad747cb6ac1b497, type: 3}
@@ -406,7 +410,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: f8a8d1058dd216446bbb8150236cd180, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: daaf834c98bd9d64a966faa1ed4e3e55, type: 2}
     - target: {fileID: 919132149155446097, guid: f8a8d1058dd216446bbb8150236cd180, type: 3}
@@ -472,7 +476,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 599c1e559b6bf3d4fbd7fa98dd24bbb3, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: daaf834c98bd9d64a966faa1ed4e3e55, type: 2}
     - target: {fileID: 919132149155446097, guid: 599c1e559b6bf3d4fbd7fa98dd24bbb3, type: 3}
@@ -538,12 +542,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 215ac2b226e319c4bbea42f8aa9ab1e3, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: daaf834c98bd9d64a966faa1ed4e3e55, type: 2}
     - target: {fileID: 919132149155446097, guid: 215ac2b226e319c4bbea42f8aa9ab1e3, type: 3}
       propertyPath: m_Name
       value: SM_Veh_Kart_01_Rear_Bumper_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 215ac2b226e319c4bbea42f8aa9ab1e3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -604,7 +612,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: a559852d53b9d2d4092a830a46f4735c, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: daaf834c98bd9d64a966faa1ed4e3e55, type: 2}
     - target: {fileID: 919132149155446097, guid: a559852d53b9d2d4092a830a46f4735c, type: 3}
@@ -670,7 +678,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: eb35199896a2fd54eb197657c1aff6c3, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: daaf834c98bd9d64a966faa1ed4e3e55, type: 2}
     - target: {fileID: 919132149155446097, guid: eb35199896a2fd54eb197657c1aff6c3, type: 3}
@@ -736,7 +744,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: eb35199896a2fd54eb197657c1aff6c3, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: daaf834c98bd9d64a966faa1ed4e3e55, type: 2}
     - target: {fileID: 919132149155446097, guid: eb35199896a2fd54eb197657c1aff6c3, type: 3}
